@@ -2,7 +2,8 @@ $(document).ready(function() {
   let python = 1
   let cSharp = 1
   let javaScript = 1
-  $(".questionOne").click(function() {
+  $("#submitOne").click(function() {
+    event.preventDefault();
       const programming = $("input:radio[name=programming]:checked").val();
       
       if (programming === "python") {
