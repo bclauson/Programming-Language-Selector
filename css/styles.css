@@ -7,3 +7,31 @@
 .questionThree {
   display: none;
 }
+
+.questionFour {
+  display: none;
+}
+
+.questionFive {
+  display: none;
+}
+
+.tryPython {
+  display: none;
+}
+
+.tryJavaScript {
+  display: none;
+}
+
+.tryCSharp {
+  display: none;
+}
+
+.tie {
+  display: none;
+}
+
+#submitFinal {
+  display: none;
+}
