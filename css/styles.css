@@ -1,8 +1,20 @@
 
+body {
+  background-color: black;
+  color: rgb(184, 255, 170)
+}
+
+a {
+  color:rgb(75, 198, 247)
+}
+
+button {
+  background-color: rgb(196, 196, 121);
+}
+
 .questionTwo {
   display: none;
 }
-
 
 .questionThree {
   display: none;
@@ -34,4 +46,8 @@
 
 #submitFinal {
   display: none;
+}
+
+#restart {
+  padding-top: 20px;
 }
