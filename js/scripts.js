@@ -13,9 +13,7 @@ $(document).ready(function() {
       } else if (programming === "java") {
         javaScript = javaScript + 1
       }
-      console.log(python)
-      console.log(javaScript)
-      console.log(cSharp)
+
       $(".questionOne").toggle();
       $(".questionTwo").toggle();
     });
@@ -30,9 +28,7 @@ $(document).ready(function() {
         } else if (programming === "cSharp") {
           cSharp = cSharp + 1
         } 
-        console.log(python)
-        console.log(javaScript)
-        console.log(cSharp)
+
         $(".questionTwo").toggle();
         $(".questionThree").toggle();
 
@@ -49,9 +45,7 @@ $(document).ready(function() {
           } else if (programming === "python") {
             python = python + 1
           }
-          console.log(python)
-          console.log(javaScript)
-          console.log(cSharp)
+
           $(".questionThree").toggle();
           $(".questionFour").toggle();
 
@@ -68,9 +62,7 @@ $(document).ready(function() {
             } else if (programming === "python") {
               python = python + 1
             }
-            console.log(python)
-            console.log(javaScript)
-            console.log(cSharp)
+
             $(".questionFour").toggle();
             $(".questionFive").toggle();
             
@@ -88,9 +80,7 @@ $(document).ready(function() {
               } else if (programming === "python") {
                 python = python + 1
               }
-              console.log(python)
-              console.log(javaScript)
-              console.log(cSharp)
+
               $(".questionFive").toggle();
               $("#submitFinal").toggle();
     
